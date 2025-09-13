@@ -1383,3 +1383,33 @@
     display: block;
   }
 }
+
+/* 픽셀에 따른 1배 또는 2배 이미지 */
+.shell-padpro {
+  background-image: -webkit-image-set(url('../apple_image/ipad_pro.jpeg') 1x, url('../apple_image/ipad_pro_2x.jpeg') 2x);
+  background-image: image-set(url('../apple_image/ipad_pro.jpeg') 1x, url('../apple_image/ipad_pro_2x.jpeg') 2x);
+}
+.shell-padair {
+  background-image: -webkit-image-set(url('../apple_image/ipad_air.jpeg') 1x, url('../apple_image/ipad_air_2x.jpeg') 2x);
+  background-image: image-set(url('../apple_image/ipad_air.jpeg') 1x, url('../apple_image/ipad_air_2x.jpeg') 2x);
+}
+.shell-15pro {
+  background-image: -webkit-image-set(url('../apple_image/iphone15_pro.jpeg') 1x, url('../apple_image/iphone15_pro_2x.jpeg') 2x);
+  background-image: image-set(url('../apple_image/iphone15_pro.jpeg') 1x, url('../apple_image/iphone15_pro_2x.jpeg') 2x);
+}
+.shell-15 {
+  background-image: -webkit-image-set(url('../apple_image/iphone15.jpeg') 1x, url('../apple_image/iphone15_2x.jpeg') 2x);
+  background-image: image-set(url('../apple_image/iphone15.jpeg') 1x, url('../apple_image/iphone15_2x.jpeg') 2x);
+}
+.shell-wch {
+  background-image: -webkit-image-set(url('../apple_image/apple_watch.jpeg') 1x, url('../apple_image/apple_watch_2x.jpeg') 2x);
+  background-image: image-set(url('../apple_image/apple_watch.jpeg') 1x, url('../apple_image/apple_watch_2x.jpeg') 2x);
+}
+.shell-mac {
+  background-image: -webkit-image-set(url('../apple_image/macbook_air.jpeg') 1x, url('../apple_image/macbook_air_2x.jpeg') 2x);
+  background-image: image-set(url('../apple_image/macbook_air.jpeg') 1x, url('../apple_image/macbook_air_2x.jpeg') 2x);
+}
+.shell-pds {
+  background-image: -webkit-image-set(url('../apple_image/airpods_pro.jpeg') 1x, url('../apple_image/airpods_pro_2x.jpeg') 2x);
+  background-image: image-set(url('../apple_image/airpods_pro.jpeg') 1x, url('../apple_image/airpods_pro_2x.jpeg') 2x);
+}
