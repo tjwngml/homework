@@ -1335,21 +1335,3 @@
     padding: var(--x-small-spacing);
   }
 }
-
-.shell-15,
-.shell-wch,
-.shell-mac,
-.shell-pds {
-  width: 50vw;
-  height: var(--size);
-  box-sizing: border-box;
-  display: block;
-}
-
-@media screen and (min-width: 1024px) {
-  .wide-wrap {
-    display: flex;
-    flex-wrap: wrap; /* 줄바꿈 허용 */
-    width: 100vw;
-  }
-}
