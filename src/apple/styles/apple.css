@@ -38,127 +38,802 @@
   background-position: center 0;
 } */
 
-body {
-  @media screen and (max-width: 800px) {
-    .shell-padpro {
-      width: 100%;
-      height: var(--size);
-      background-repeat: no-repeat;
-      background-image: url('../apple_image/ipad_pro.jpeg');
-      background-position: 0 0;
-      background-size: 100% 110%;
-      border: red solid;
-    }
-
-    .shell-padpro header {
-      margin-top: var(--large-spacing);
-      font-size: var(--large-text);
-      color: var(--white);
-      text-align: center;
-      margin-bottom: var(--small-spacing);
-    }
-
-    .shell-padpro strong {
-      margin-bottom: var(--x-small-spacing);
-      font-size: var(--base-text);
-      color: var(--white);
-      display: block;
-      text-align: center;
-    }
-
-    .shell-padpro p {
-      font-size: var(--small-text);
-      color: var(--gray);
-      text-align: center;
-    }
-
-    .shell-padpro .a-layout {
-      text-align: center;
-      margin-bottom: var(--small-spacing);
-    }
-
-    .shell-padpro .more-btn {
-      font-size: var(--xx-small-text);
-      color: var(--white);
-      background-color: var(--blue-300);
-      border-radius: 20px;
-      border: var(--blue-300) solid;
-      margin-right: calc(var(--base-spacing) / 2);
-      text-decoration: none;
-      padding: var(--x-small-spacing);
-    }
-    .shell-padpro .prc-btn {
-      font-size: var(--xx-small-text);
-      color: var(--blue-300);
-      border: var(--blue-300) solid;
-      border-radius: 20px;
-      margin-left: calc(var(--base-spacing) / 2);
-      text-decoration: none;
-      padding: var(--x-small-spacing);
-    }
+@media screen and (max-width: 800px) {
+  .shell-padpro {
+    /* border: yellow solid; */
+    width: 100%;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/ipad_pro.jpeg');
+    background-position: 0 0;
+    background-size: 100% 110%;
+    overflow: hidden;
+    /* border: red solid; */
   }
 
-  @media screen and (min-width: 800px) and (max-width: 1023px) {
-    .shell-padpro {
-      width: 100%;
-      height: var(--size);
-      background-repeat: no-repeat;
-      background-image: url('../apple_image/ipad_pro.jpeg');
-      background-position: 0 0;
+  .shell-padpro header {
+    margin-top: var(--large-spacing);
+    font-size: var(--large-text);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
 
-      background-size: cover;
-      border: red solid;
-    }
+  .shell-padpro strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--base-text);
+    color: var(--white);
+    display: block;
+    text-align: center;
+  }
 
-    .shell-padpro header {
-      margin-top: var(--large-spacing);
-      font-size: var(--large-text);
-      color: var(--white);
-      text-align: center;
-      margin-bottom: var(--small-spacing);
-    }
+  .shell-padpro p {
+    font-size: var(--small-text);
+    color: var(--gray);
+    text-align: center;
+  }
 
-    .shell-padpro strong {
-      margin-bottom: var(--x-small-spacing);
-      font-size: var(--base-text);
-      color: var(--white);
-      display: block;
-      text-align: center;
-    }
+  .shell-padpro .a-layout {
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
 
-    .shell-padpro p {
-      font-size: var(--small-text);
-      color: var(--gray);
-      text-align: center;
-    }
+  .shell-padpro .more-btn {
+    font-size: var(--xx-small-text);
+    color: var(--white);
+    background-color: var(--blue-300);
+    border-radius: 20px;
+    border: var(--blue-300) solid;
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-padpro .prc-btn {
+    font-size: var(--xx-small-text);
+    color: var(--blue-300);
+    border: var(--blue-300) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
 
-    .shell-padpro .a-layout {
-      text-align: center;
-      margin-bottom: var(--small-spacing);
-    }
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+  .shell-padpro {
+    width: 100%;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/ipad_pro.jpeg');
+    background-position: 0 0;
 
-    .shell-padpro .more-btn {
-      font-size: var(--xx-small-text);
-      color: var(--white);
-      background-color: var(--blue-300);
-      border-radius: 20px;
-      border: var(--blue-300) solid;
-      margin-right: calc(var(--base-spacing) / 2);
-      text-decoration: none;
-      padding: var(--x-small-spacing);
-    }
-    .shell-padpro .prc-btn {
-      font-size: var(--xx-small-text);
-      color: var(--blue-300);
-      border: var(--blue-300) solid;
-      border-radius: 20px;
-      margin-left: calc(var(--base-spacing) / 2);
-      text-decoration: none;
-      padding: var(--x-small-spacing);
-    }
+    background-size: cover;
+    border: red solid;
+  }
+
+  .shell-padpro header {
+    margin-top: var(--large-spacing);
+    font-size: var(--large-text);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-padpro strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--base-text);
+    color: var(--white);
+    display: block;
+    text-align: center;
+  }
+
+  .shell-padpro p {
+    font-size: var(--small-text);
+    color: var(--gray);
+    text-align: center;
+  }
+
+  .shell-padpro .a-layout {
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-padpro .more-btn {
+    font-size: var(--xx-small-text);
+    color: var(--white);
+    background-color: var(--blue-300);
+    border-radius: 20px;
+    border: var(--blue-300) solid;
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-padpro .prc-btn {
+    font-size: var(--xx-small-text);
+    color: var(--blue-300);
+    border: var(--blue-300) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
   }
 }
 
 /* 일단 여기까지가 하나의 카드 완성 */
 
+/* 아이패드 에어 */
+@media screen and (max-width: 800px) {
+  .shell-padair {
+    /* border: red solid; */
+    width: 100%;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/ipad_air.jpeg');
+    background-position: 0 0;
+    background-size: 100% 110%;
+    overflow: hidden;
+    /* border: red solid; */
+  }
 
+  .shell-padair header {
+    margin-top: var(--large-spacing);
+    font-size: var(--large-text);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-padair strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--base-text);
+    color: var(--white);
+    display: block;
+    text-align: center;
+  }
+
+  .shell-padair p {
+    font-size: var(--small-text);
+    color: var(--gray);
+    text-align: center;
+  }
+
+  .shell-padair .a-layout {
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-padair .more-btn {
+    font-size: var(--xx-small-text);
+    color: var(--white);
+    background-color: var(--blue-300);
+    border-radius: 20px;
+    border: var(--blue-300) solid;
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-padair .prc-btn {
+    font-size: var(--xx-small-text);
+    color: var(--blue-300);
+    border: var(--blue-300) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+  .shell-padair {
+    width: 100%;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/ipad_pro.jpeg');
+    background-position: 0 0px;
+
+    background-size: cover;
+    border: red solid;
+  }
+
+  .shell-padair header {
+    margin-top: var(--large-spacing);
+    font-size: var(--large-text);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-padair strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--base-text);
+    color: var(--white);
+    display: block;
+    text-align: center;
+  }
+
+  .shell-padair p {
+    font-size: var(--small-text);
+    color: var(--gray);
+    text-align: center;
+  }
+
+  .shell-padair .a-layout {
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-padair .more-btn {
+    font-size: var(--xx-small-text);
+    color: var(--white);
+    background-color: var(--blue-300);
+    border-radius: 20px;
+    border: var(--blue-300) solid;
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-padair .prc-btn {
+    font-size: var(--xx-small-text);
+    color: var(--blue-300);
+    border: var(--blue-300) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
+
+/* 아이폰 15 프로 */
+@media screen and (max-width: 800px) {
+  .shell-15pro {
+    /* border: red solid; */
+    width: 100%;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/iphone15_pro.jpeg');
+    background-position: 0 0;
+    background-size: 100% 110%;
+    overflow: hidden;
+    /* border: red solid; */
+  }
+
+  .shell-15pro header {
+    margin-top: var(--large-spacing);
+    font-size: var(--large-text);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-15pro strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--base-text);
+    color: var(--white);
+    display: block;
+    text-align: center;
+  }
+
+  .shell-15pro .a-layout {
+    text-align: center;
+    margin-top: var(--small-spacing);
+  }
+
+  .shell-15pro .more-btn {
+    font-size: var(--xx-small-text);
+    color: var(--white);
+    background-color: var(--blue-300);
+    border-radius: 20px;
+    border: var(--blue-300) solid;
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-15pro .prc-btn {
+    font-size: var(--xx-small-text);
+    color: var(--blue-300);
+    border: var(--blue-300) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+  .shell-15pro {
+    width: 100%;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/ipad_pro.jpeg');
+    background-position: 0 0;
+    overflow: hidden;
+
+    background-size: cover;
+    border: red solid;
+  }
+
+  .shell-15pro header {
+    margin-top: var(--large-spacing);
+    font-size: var(--large-text);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-15pro strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--base-text);
+    color: var(--white);
+    display: block;
+    text-align: center;
+  }
+
+  .shell-15pro .a-layout {
+    text-align: center;
+    margin-top: var(--small-spacing);
+  }
+
+  .shell15pro .more-btn {
+    font-size: var(--xx-small-text);
+    color: var(--white);
+    background-color: var(--blue-300);
+    border-radius: 20px;
+    border: var(--blue-300);
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-15pro .prc-btn {
+    font-size: var(--xx-small-text);
+    color: var(--blue-300);
+    border: var(--blue-300) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
+
+/* 기본 아이폰 15 */
+@media screen and (max-width: 800px) {
+  .shell-15 {
+    /* border: red solid; */
+    width: 100%;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/iphone15.jpeg');
+    background-position: 0 0;
+    background-size: 100% 110%;
+    overflow: hidden;
+    /* border: red solid; */
+  }
+
+  .shell-15 header {
+    margin-top: var(--large-spacing);
+    font-size: var(--large-text);
+    color: var(--black);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-15 strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--base-text);
+    color: var(--black);
+    display: block;
+    text-align: center;
+  }
+
+  .shell-15 .a-layout {
+    text-align: center;
+    margin-top: var(--small-spacing);
+  }
+
+  .shell-15 .more-btn {
+    font-size: var(--xx-small-text);
+    color: var(--white);
+    background-color: var(--black);
+    border-radius: 20px;
+    border: var(--black) solid;
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-15 .prc-btn {
+    font-size: var(--xx-small-text);
+    color: var(--black);
+    border: var(--black) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+  .shell-15 {
+    width: 100%;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/ipad_pro.jpeg');
+    background-position: 0 0;
+    overflow: hidden;
+
+    background-size: cover;
+    border: red solid;
+  }
+
+  .shell-15 header {
+    margin-top: var(--large-spacing);
+    font-size: var(--large-text);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-15 strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--base-text);
+    color: var(--white);
+    display: block;
+    text-align: center;
+  }
+
+  .shell-15 .a-layout {
+    text-align: center;
+    margin-top: var(--small-spacing);
+  }
+
+  .shell-15 .more-btn {
+    font-size: var(--xx-small-text);
+    color: var(--white);
+    background-color: var(--black);
+    border-radius: 20px;
+    border: var(--black);
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-15 .prc-btn {
+    font-size: var(--xx-small-text);
+    color: var(--black);
+    border: var(--black) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
+
+/* 애플 와치 */
+@media screen and (max-width: 800px) {
+  .shell-wch {
+    /* border: red solid; */
+    width: 100%;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/apple_watch.jpeg');
+    background-position: 0 0;
+    background-size: 100% 110%;
+    overflow: hidden;
+    /* border: red solid; */
+  }
+
+  .shell-wch header {
+    margin-top: var(--large-spacing);
+    font-size: var(--large-text);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-wch strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--base-text);
+    color: var(--white);
+    display: block;
+    text-align: center;
+  }
+
+  .shell-wch .a-layout {
+    text-align: center;
+    margin-top: var(--small-spacing);
+  }
+
+  .shell-wch .more-btn {
+    font-size: var(--xx-small-text);
+    color: var(--white);
+    background-color: var(--blue-300);
+    border-radius: 20px;
+    border: var(--blue-300) solid;
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-wch .prc-btn {
+    font-size: var(--xx-small-text);
+    color: var(--blue-300);
+    border: var(--blue-300) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+  .shell-wch {
+    width: 100%;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/ipad_pro.jpeg');
+    background-position: 0 0;
+    overflow: hidden;
+
+    background-size: cover;
+    /* border: red solid; */
+  }
+
+  .shell-1wch header {
+    margin-top: var(--large-spacing);
+    font-size: var(--large-text);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-wch strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--base-text);
+    color: var(--white);
+    display: block;
+    text-align: center;
+  }
+
+  .shell-wch .a-layout {
+    text-align: center;
+    margin-top: var(--small-spacing);
+  }
+
+  .shell-wch .more-btn {
+    font-size: var(--xx-small-text);
+    color: var(--white);
+    background-color: var(--blue-300);
+    border-radius: 20px;
+    border: var(--blue-300);
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-wch .prc-btn {
+    font-size: var(--xx-small-text);
+    color: var(--blue-300);
+    border: var(--blue-300) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
+
+/* 맥북 에어 */
+@media screen and (max-width: 800px) {
+  .shell-mac {
+    /* border: red solid; */
+    width: 100%;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/macbook_air.jpeg');
+    background-position: 0 0;
+    background-size: 100% 110%;
+    overflow: hidden;
+    /* border: red solid; */
+  }
+
+  .shell-mac header {
+    margin-top: var(--large-spacing);
+    font-size: var(--large-text);
+    color: var(--black);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-mac strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--base-text);
+    color: var(--black);
+    display: block;
+    text-align: center;
+  }
+
+  .shell-mac .a-layout {
+    text-align: center;
+    margin-top: var(--small-spacing);
+  }
+
+  .shell-mac .more-btn {
+    font-size: var(--xx-small-text);
+    color: var(--white);
+    background-color: var(--black);
+    border-radius: 20px;
+    border: var(--black) solid;
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-mac .prc-btn {
+    font-size: var(--xx-small-text);
+    color: var(--black);
+    border: var(--black) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+  .shell-mac {
+    width: 100%;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/ipad_pro.jpeg');
+    background-position: 0 0;
+    overflow: hidden;
+
+    background-size: cover;
+    /* border: red solid; */
+  }
+
+  .shell-mac header {
+    margin-top: var(--large-spacing);
+    font-size: var(--large-text);
+    color: var(--black);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-mac strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--base-text);
+    color: var(--white);
+    display: block;
+    text-align: center;
+  }
+
+  .shell-mac .a-layout {
+    text-align: center;
+    margin-top: var(--small-spacing);
+  }
+
+  .shell-mac .more-btn {
+    font-size: var(--xx-small-text);
+    color: var(--white);
+    background-color: var(--black);
+    border-radius: 20px;
+    border: var(--black);
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-mac .prc-btn {
+    font-size: var(--xx-small-text);
+    color: var(--black);
+    border: var(--black) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
+
+/* 에어팟 */
+@media screen and (max-width: 800px) {
+  .shell-pds {
+    /* border: red solid; */
+    width: 100%;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/airpods_pro.jpeg');
+    background-position: 0 0;
+    background-size: 100% 110%;
+    overflow: hidden;
+    /* border: red solid; */
+  }
+
+  .shell-pds header {
+    margin-top: var(--large-spacing);
+    font-size: var(--large-text);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-pds strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--base-text);
+    color: var(--white);
+    display: block;
+    text-align: center;
+  }
+
+  .shell-pds .a-layout {
+    text-align: center;
+    margin-top: var(--small-spacing);
+  }
+
+  .shell-pds .more-btn {
+    font-size: var(--xx-small-text);
+    color: var(--white);
+    background-color: var(--blue-300);
+    border-radius: 20px;
+    border: var(--blue-300) solid;
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-pds .prc-btn {
+    font-size: var(--xx-small-text);
+    color: var(--blue-300);
+    border: var(--blue-300) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+  .shell-pds {
+    width: 100%;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/ipad_pro.jpeg');
+    background-position: 0 0;
+    overflow: hidden;
+
+    background-size: cover;
+    /* border: red solid; */
+  }
+
+  .shell-pds header {
+    margin-top: var(--large-spacing);
+    font-size: var(--large-text);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-pds strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--base-text);
+    color: var(--white);
+    display: block;
+    text-align: center;
+  }
+
+  .shell-pds .a-layout {
+    text-align: center;
+    margin-top: var(--small-spacing);
+  }
+
+  .shell-pds .more-btn {
+    font-size: var(--xx-small-text);
+    color: var(--white);
+    background-color: var(--blue-300);
+    border-radius: 20px;
+    border: var(--blue-300);
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-pds .prc-btn {
+    font-size: var(--xx-small-text);
+    color: var(--blue-300);
+    border: var(--blue-300) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
