@@ -725,6 +725,74 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .shell-15 {
+    /* border: yellow solid; */
+    width: 50vw;
+    display: block;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/iphone15_2x.jpeg');
+    background-position: 0 0;
+    background-size: 50% 100%;
+    /* aspect-ratio: 3/ 1; */
+
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: blue solid;
+  }
+
+  .shell-15 header {
+    margin-top: var(--extra-large-spacing);
+    font-size: var(--extra-large-text);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+    font-weight: 500;
+  }
+
+  .shell-15 strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--medium-text);
+    color: var(--white);
+    display: block;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .shell-15 p {
+    font-size: var(--small-text);
+    color: var(--gray);
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .shell-15 .a-layout {
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-15 .more-btn {
+    font-size: var(--x-small-text);
+    color: var(--white);
+    background-color: var(--blue-300);
+    border-radius: 20px;
+    border: var(--blue-300) solid;
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-15 .prc-btn {
+    font-size: var(--x-small-text);
+    color: var(--blue-300);
+    border: var(--blue-300) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
+
 /* 애플 와치 */
 @media screen and (max-width: 800px) {
   .shell-wch {
@@ -826,6 +894,74 @@
   }
   .shell-wch .prc-btn {
     font-size: var(--xx-small-text);
+    color: var(--blue-300);
+    border: var(--blue-300) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .shell-wch {
+    width: 50vw;
+    border: yellow solid;
+    display: block;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/apple_watch_2x.jpeg');
+    background-position: 0 50;
+    background-size: 50% 100%;
+    /* aspect-ratio: 3/ 1; */
+
+    overflow: hidden;
+    margin-bottom: 10px;
+    /* border: blue solid; */
+  }
+
+  .shell-wch header {
+    margin-top: var(--extra-large-spacing);
+    font-size: var(--extra-large-text);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+    font-weight: 500;
+  }
+
+  .shell-wch strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--medium-text);
+    color: var(--white);
+    display: block;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .shell-wch p {
+    font-size: var(--small-text);
+    color: var(--gray);
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .shell-wch .a-layout {
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-wch .more-btn {
+    font-size: var(--x-small-text);
+    color: var(--white);
+    background-color: var(--blue-300);
+    border-radius: 20px;
+    border: var(--blue-300) solid;
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-wch .prc-btn {
+    font-size: var(--x-small-text);
     color: var(--blue-300);
     border: var(--blue-300) solid;
     border-radius: 20px;
@@ -947,6 +1083,74 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .shell-mac {
+    display: flex;
+    /* border: yellow solid; */
+    width: 100%;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/macbook_air_2x.jpeg');
+    background-position: center;
+    background-size: cover;
+    /* aspect-ratio: 3/ 1; */
+
+    overflow: hidden;
+    margin-bottom: 10px;
+    /* border: orange solid; */
+  }
+
+  .shell-mac header {
+    margin-top: var(--extra-large-spacing);
+    font-size: var(--extra-large-text);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+    font-weight: 500;
+  }
+
+  .shell-mac strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--medium-text);
+    color: var(--white);
+    display: block;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .shell-mac p {
+    font-size: var(--small-text);
+    color: var(--gray);
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .shell-mac .a-layout {
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-mac .more-btn {
+    font-size: var(--x-small-text);
+    color: var(--white);
+    background-color: var(--blue-300);
+    border-radius: 20px;
+    border: var(--blue-300) solid;
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-mac .prc-btn {
+    font-size: var(--x-small-text);
+    color: var(--blue-300);
+    border: var(--blue-300) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
+
 /* 에어팟 */
 @media screen and (max-width: 800px) {
   .shell-pds {
@@ -1061,3 +1265,71 @@
     padding: var(--x-small-spacing);
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .shell-pds {
+    /* border: yellow solid; */
+    width: 100%;
+    height: var(--size);
+    background-repeat: no-repeat;
+    background-image: url('../apple_image/airpods_pro_2x.jpeg');
+    background-position: center;
+    background-size: cover;
+    /* aspect-ratio: 3/ 1; */
+
+    overflow: hidden;
+    margin-bottom: 10px;
+    /* border: blue solid; */
+  }
+
+  .shell-pds header {
+    margin-top: var(--extra-large-spacing);
+    font-size: var(--extra-large-text);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+    font-weight: 500;
+  }
+
+  .shell-pds strong {
+    margin-bottom: var(--x-small-spacing);
+    font-size: var(--medium-text);
+    color: var(--white);
+    display: block;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .shell-pds p {
+    font-size: var(--small-text);
+    color: var(--gray);
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .shell-pds .a-layout {
+    text-align: center;
+    margin-bottom: var(--small-spacing);
+  }
+
+  .shell-pds .more-btn {
+    font-size: var(--x-small-text);
+    color: var(--white);
+    background-color: var(--blue-300);
+    border-radius: 20px;
+    border: var(--blue-300) solid;
+    margin-right: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+  .shell-pds .prc-btn {
+    font-size: var(--x-small-text);
+    color: var(--blue-300);
+    border: var(--blue-300) solid;
+    border-radius: 20px;
+    margin-left: calc(var(--base-spacing) / 2);
+    text-decoration: none;
+    padding: var(--x-small-spacing);
+  }
+}
+
