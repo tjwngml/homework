@@ -739,7 +739,7 @@
 
     overflow: hidden;
     margin-bottom: 10px;
-    border: blue solid;
+    /* border: blue solid; */
   }
 
   .shell-15 header {
@@ -906,7 +906,7 @@
 @media screen and (min-width: 1024px) {
   .shell-wch {
     width: 50vw;
-    border: yellow solid;
+    /* border: yellow solid; */
     display: block;
     height: var(--size);
     background-repeat: no-repeat;
@@ -1098,7 +1098,7 @@
 
     overflow: hidden;
     margin-bottom: 10px;
-    border: pink solid;
+    /* border: pink solid; */
   }
 
   .shell-mac header {
@@ -1333,5 +1333,22 @@
     margin-left: calc(var(--base-spacing) / 2);
     text-decoration: none;
     padding: var(--x-small-spacing);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .wide-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+  }
+  .shell-15,
+  .shell-wch,
+  .shell-mac,
+  .shell-pds {
+    width: 50vw;
+    height: var(--size);
+    box-sizing: border-box;
+    display: block;
   }
 }
