@@ -7,5 +7,21 @@
     "live-server": "^1.2.2",
     "prettier": "^3.6.2",
     "simple-webp-converter": "^1.0.3"
+  },
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "**15기 서주희**",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjwngml/homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+  "url": "https://github.com/tjwngml/homework/issues",
+  "homepage": "https://github.com/tjwngml/homework#readme"
   }
 }
